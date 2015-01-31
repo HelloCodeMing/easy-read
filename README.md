@@ -10,7 +10,7 @@ Forked from [Arrix](https://github.com/arrix/node-readability).
 - Better support for multiple languages.
 
 ## Requirements
-* [jsdom 2.x](https://github.com/tmpvar/jsdom)
+* [jsdom](https://github.com/tmpvar/jsdom)
 * [htmlparser](https://github.com/tautologistics/node-htmlparser)
 * [needle](https://github.com/tomas/needle)
 

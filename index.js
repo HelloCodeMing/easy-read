@@ -12,7 +12,7 @@ module.exports = function(html, callback) {
 	if (html.substring(0, 4) === 'http') {
 		var url = html;
 		needle.get(url, function(err, res) {
-            if (typeof res.body == 'object') {
+            if (res.body && typeof res.body == 'object') {
                 callback(new TypeError('this is not a html page'));
             } else if (!err && res.statusCode == 200) {
 				read.parse(res.body, url, callback);

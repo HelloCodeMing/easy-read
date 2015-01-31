@@ -1,6 +1,6 @@
 {
     "name": "easy-read",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "Readability with a good performence",
     "keywords": [
         "readability"
@@ -41,7 +41,7 @@
     ],
     "dependencies": {
        "mjsunit.runner": ">=0.1.0",
-       "jsdom": "2.x",
+       "jsdom": ">=1.0.0",
        "htmlparser": ">=1.7.3",
 	   "needle": "*"
     },
