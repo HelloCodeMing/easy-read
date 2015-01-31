@@ -1,6 +1,6 @@
 {
     "name": "easy-read",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "Readability with a good performence",
     "keywords": [
         "readability"
@@ -10,6 +10,11 @@
             "name": "HelloCodeMing",
             "email": "huanmingwong@163.com",
             "web": "http://wanghuanming.com"
+        },
+        {
+            "name": "Masih Yeganeh",
+            "email": "goodboy.php@gmail.com",
+            "web": "http://www.dogtag.ir"
         }
     ],
     "contributors": [
@@ -24,8 +29,8 @@
         }
     ],
     "bugs": {
-        "mail": "arrixzhou@gmail.com",
-        "web": "http://github.com/arrix/node-readability/issues"
+        "mail": "huanmingwong@163.com",
+        "web": "https://github.com/HelloCodeMing/easy-read"
     },
     "licenses": [
         {
@@ -36,7 +41,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "http://github.com/HelloCodeMing/node-readability.git"
+            "url": "http://github.com/HelloCodeMing/easy-read.git"
         }
     ],
     "dependencies": {
@@ -51,4 +56,3 @@
     },
     "main": "index"
 }
-

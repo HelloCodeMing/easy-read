@@ -13,6 +13,7 @@ Forked from [Arrix](https://github.com/arrix/node-readability).
 ```bash
 npm install easy-read
 ```
+
 ## Requirements
 * [jsdom](https://github.com/tmpvar/jsdom)
 * [htmlparser](https://github.com/tautologistics/node-htmlparser)
