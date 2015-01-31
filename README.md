@@ -4,10 +4,10 @@ Forked from [Arrix](https://github.com/arrix/node-readability).
 [Readability.js by Arc90](http://lab.arc90.com/experiments/readability/) ported to node.js.
 
 
-## Why not node-readability
-- No url support
-- Performance is fairly awesome.
-- Better support for multiple languages.
+## Features
+- Url support.
+- Awesome performance.
+- Robust support for multiple languages.
 
 ## Requirements
 * [jsdom](https://github.com/tmpvar/jsdom)
@@ -18,7 +18,7 @@ Forked from [Arrix](https://github.com/arrix/node-readability).
 
     var read = require('easy-read');
     
-    read.parse(html, url, function(result) {
+    read('http://wanghuanming.com/2015/01/summary-for-2014/', function(result) {
         console.log(result.title, result.content);
     });
 
