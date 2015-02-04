@@ -1,7 +1,6 @@
 # user-friendly readability
-Forked from [Arrix](https://github.com/arrix/node-readability).
 
-[Readability.js by Arc90](http://lab.arc90.com/experiments/readability/) ported to node.js.
+[Readability.js by Arc90](http://lab.arc90.com/experiments/readability/) ported to node.js. I forked the repo because the origin has been stopped maintaining.
 
 
 ## Features
