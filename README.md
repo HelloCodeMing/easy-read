@@ -29,4 +29,4 @@ npm install easy-read
 
 ## Limitation
 * no fetching next pages
-* no support for frames
+* no support for frame
